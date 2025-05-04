@@ -1,0 +1,16 @@
+[project]
+name = "music-genre-transformer"
+version = "0.1.0"
+description = "Music generation"
+authors = ["Your Name <email@example.com>"]
+dependencies = [
+    "torch",
+    "transformers",
+    "miditok",
+    "pretty-midi",
+    "soundfile",
+    "midi2audio",
+    "Flask",
+    "scipy",
+    "wandb"
+]
